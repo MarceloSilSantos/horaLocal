@@ -14,3 +14,6 @@ function getCurrentTime(location) {
     });
     document.getElementById('currentTime').textContent = ` Hora atual em ${location} : ${currentTime}`;
 }
+setInterval(getCurrentTime, 1000);
+
+//getCurrentTime();
